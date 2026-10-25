@@ -1,0 +1,152 @@
+/* Modern Come crochetwithDIDI Style - Raliat Babatunde */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fff5f8 0%, #fce4ec 100%);
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #d81b60, #ad1457);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(216,27,96,0.3);
+}
+
+.logo-small {
+  color: white;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 25px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffccdd;
+  transform: scale(1.05);
+}
+
+.hero-banner {
+  width: 100%;
+  background: white;
+  text-align: center;
+  border-bottom: 5px solid #d81b60;
+}
+
+.hero-banner img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+}
+
+.container {
+  background: white;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(216,27,96,0.15);
+}
+
+h1 {
+  color: #d81b60;
+  font-size: 32px;
+  text-align: center;
+}
+
+h2 {
+  color: #880e4f;
+  border-left: 5px solid #d81b60;
+  padding-left: 15px;
+  margin-top: 30px;
+}
+
+.image-box {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.image-box img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.image-box img:hover {
+  transform: scale(1.02);
+}
+
+/* MODERN TABLE - Not ancient anymore! */
+.student-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(216,27,96,0.12);
+}
+
+.student-table th {
+  background: linear-gradient(135deg, #d81b60, #ad1457);
+  color: white;
+  padding: 16px 15px;
+  text-align: left;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.student-table td {
+  padding: 14px 15px;
+  border-bottom: 1px solid #fce4ec;
+  font-size: 14px;
+}
+
+.student-table tr {
+  transition: all 0.3s ease;
+}
+
+.student-table tr:nth-child(even) {
+  background: #fff8fa;
+}
+
+.student-table tr:nth-child(odd) {
+  background: white;
+}
+
+.student-table tbody tr:hover {
+  background: #ffe3ec !important;
+  transform: scale(1.01);
+  box-shadow: 0 4px 15px rgba(216,27,96,0.1);
+  cursor: pointer;
+}
+
+.student-table td:first-child {
+  font-weight: 600;
+  color: #880e4f;
+}
+
+.contact {
+  margin-top: 30px;
+  text-align: center;
+  background: #fce4ec;
+  padding: 15px;
+  border-radius: 10px;
+  color: #d81b60;
+  font-weight: bold;
+}
